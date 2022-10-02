@@ -34,10 +34,6 @@ public class Money {
         return new Money(newValue, this.currency);
     }
 
-    private boolean isInTheSameCurrency(Money money) {
-        return this.currency.equals(money.getCurrency());
-    }
-
     @Override
     public String toString() {
         return "Money{" +

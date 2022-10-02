@@ -30,7 +30,7 @@ public class MoneyComparatorTest {
     }
 
     @Test
-    public void testCompareShouldReturnNegativeValueWhenFirstParameterIsLessThanTheSecondOne() {
+    public void testCompareShouldReturnNegativeValueWhenFirstParameterIsLessThanTheSecondOne(){
         // given
         Money money1 = new Money(1, HUF);
         Money money2 = new Money(1, USD);
@@ -44,7 +44,7 @@ public class MoneyComparatorTest {
     }
 
     @Test
-    public void testCompareShouldReturnZeroWhenTheTwoParametersAreEqual() {
+    public void testCompareShouldReturnZeroWhenTheTwoParametersAreEqual(){
         // given
         Money money1 = new Money(1, HUF);
         Money money2 = new Money(1, HUF);
@@ -58,7 +58,7 @@ public class MoneyComparatorTest {
     }
 
     @Test
-    public void testCompareShouldReturnPositiveValueWhenFirstParameterIsGreaterThanTheSecondOne() {
+    public void testCompareShouldReturnPositiveValueWhenFirstParameterIsGreaterThanTheSecondOne(){
         // given
         Money money1 = new Money(3, HUF);
         Money money2 = new Money(1, USD);
