@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
+<file name="C:\Code\ProgTech\NHF4\hello-world\src\main\java\hu\akkkkos\HelloLibrary.java">
+</file>
+<file name="C:\Code\ProgTech\NHF4\hello-world\src\main\java\hu\akkkkos\Main.java">
+</file>
+<file name="C:\Code\ProgTech\NHF4\hello-world\src\main\java\hu\akkkkos\package-info.java">
+</file>
 </checkstyle>

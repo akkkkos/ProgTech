@@ -2,14 +2,19 @@ package hu.akkkkos;
 
 import static hu.akkkkos.HelloLibrary.genResponse;
 
+/**
+ * Main File.
+ */
 public final class Main {
     private Main() {
     }
 
     /***
      * Getting input from user as arguments and greeting the user.
+     *
      * @param args Input arguments from the command line.
      */
+
     public static void main(final String[] args) {
         if (args.length == 0) {
             System.out.println("Nincs elég argumentum!");
@@ -25,6 +30,7 @@ public final class Main {
             }
         }
     }
+
     private static String setLanguage(final String[] args) {
         String lang;
         if (args.length == 1) {
